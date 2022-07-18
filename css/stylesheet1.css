@@ -1,0 +1,43 @@
+td,th
+{
+    padding:20px;
+    border-collapse:collapse;
+}
+table{
+    border-collapse:collapse;
+    border:5px solid orange;
+}
+body
+{
+    background-image: url('C:\Users\DELL\Desktop\Image.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+}
+caption
+{
+    font-size: larger;
+    margin: 20px;
+    padding: 20px;
+    color:red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:5px solid red;
+}
+tr:nth-child(2n+1)
+{
+    background-color:white;
+    
+
+}
+tr:nth-child(2n)
+{
+    background-color:#FF9933 ;
+}
+table th
+{
+    border:5px solid black;
+}
+table td
+{
+    border:5px solid black;
+}
+

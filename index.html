@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ONLINE VOTING</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+    <body>
+        <header id="header-section">
+            <a href="api/template.php"> <button id="template">Political Party</button></a>
+        
+        
+            <center>
+        <div id="headerSection">
+        <div id="ccc"><pre> Online Voting System </pre></div>
+        </div>
+        <div id="bodySection">
+        <form action="api/login.php" method="post">
+        <h3 id="cc">Login</h3>
+        <input type="tel" name="aadhar" placeholder="Enter AAdhar Number" autofocus id="ll" pattern="[0-9]{16}" title="Enter valid Aadhar number"><br><br>
+        <input type="password" name="password" placeholder="Enter password" id="ll"><br><br>
+        <select name="role" id="dropbox" >
+            <option value="1" selected>Voter</option>
+             <option value="2">Group</option> 
+        </select>
+        <br><br>
+        <button type="submit" id="loginbtn" onmouseover="change()">Login</button><br><br>
+        <span style="font-size:20px;color:black">New user?</span><a href="routers/register1.php">Register here</a>
+        </form>
+        </div>
+</center>    
+        </header>
+        <script>
+            function change()
+            {
+                document.getElementById("loginbtn").style.color="red";
+                document.getElementById("loginbtn").style.backgroundImage="linear-gradient(red, yellow, green)";
+
+            }
+        </script>
+    </body>
+
+</html>

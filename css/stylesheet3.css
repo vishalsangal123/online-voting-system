@@ -1,0 +1,93 @@
+
+#live
+{
+    margin:20px;
+    padding:5px;
+    float:left;
+}
+
+
+#logoutbtn
+{
+    margin:20px;
+    padding:5px;
+    float:right;
+}
+#xyz
+{
+    padding:20px;
+    color:#FFD700;
+}
+#profile
+{
+     
+    width:30%;
+    padding: 20px;
+    float:left;
+}
+
+#group
+{
+   
+    width:60%;
+    padding: 20px;
+    float:right;
+}
+#group1
+{
+    padding: 20px;;
+}
+
+
+#votebtn
+{
+    padding: 5px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+
+}
+#mainpanel
+{
+    padding:10px;
+}
+#voted
+{
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightgrey;
+    color: white;
+    border-radius: 5px;
+}
+
+tr
+{
+    width:50px;
+   border:3px solid black;
+}
+
+td
+{
+    padding:9px;
+    width:250px;
+    text-align: center;
+    align-items: center;
+    margin:-5px;
+    border:3px solid black;
+    color:cyan;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-style: italic;
+    
+    
+}
+table{
+    margin:-8px;
+    border-collapse: collapse;
+  
+}
+#xxyy tr td
+{
+    color:black;
+}
